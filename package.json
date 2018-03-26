@@ -1,0 +1,24 @@
+{
+  "name": "primeflix-server",
+  "version": "1.0.0",
+  "description": "Server backend for PrimeFlix. Uses primewire-client. ",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/milankragujevic/primeflix-server.git"
+  },
+  "author": "Milan Kragujevic",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/milankragujevic/primeflix-server/issues"
+  },
+  "homepage": "https://github.com/milankragujevic/primeflix-server#readme",
+  "dependencies": {
+    "express": "^4.16.3",
+    "memory-cache": "^0.2.0",
+    "primewire-client": "^1.0.0"
+  }
+}
